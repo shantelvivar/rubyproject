@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sectionname: MyString
+  sectiontime: 2019-10-30 01:08:39
+  sectionlocation: MyString
+
+two:
+  sectionname: MyString
+  sectiontime: 2019-10-30 01:08:39
+  sectionlocation: MyString
