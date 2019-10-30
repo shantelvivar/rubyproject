@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  assignname: MyString
+  duedate: 2019-10-30 01:09:52
+  professor: one
+  section: one
+
+two:
+  assignname: MyString
+  duedate: 2019-10-30 01:09:52
+  professor: two
+  section: two
