@@ -23,7 +23,7 @@
 
   <div class="field">
     <%= form.label :office_id %>
-    <%= form.text_field :office_id %>
+    <%= form.collection_select :office_id, Office.all, :id, :roomnumber %>
   </div>
 
   <div class="actions">

@@ -1,23 +1,23 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Assignname:</strong>
+  <strong>Assignment Name:</strong>
   <%= @assignment.assignname %>
 </p>
 
 <p>
-  <strong>Duedate:</strong>
+  <strong>Due Date:</strong>
   <%= @assignment.duedate %>
 </p>
 
 <p>
   <strong>Professor:</strong>
-  <%= @assignment.professor_id %>
+  <%= @assignment.professor.firstname %>
 </p>
 
 <p>
   <strong>Section:</strong>
-  <%= @assignment.section_id %>
+  <%= @assignment.section.sectionname %>
 </p>
 
 <%= link_to 'Edit', edit_assignment_path(@assignment) %> |

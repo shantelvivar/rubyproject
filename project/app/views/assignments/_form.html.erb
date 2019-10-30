@@ -12,7 +12,7 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :assignname %>
+    <%= form.label :assigname %>
     <%= form.text_field :assignname %>
   </div>
 
@@ -23,12 +23,12 @@
 
   <div class="field">
     <%= form.label :professor_id %>
-    <%= form.text_field :professor_id %>
+    <%= form.collection_select :professor_id, Professor.all, :id, :firstname %>
   </div>
 
   <div class="field">
     <%= form.label :section_id %>
-    <%= form.text_field :section_id %>
+    <%= form.collection_select :section_id, Section.all, :id, :sectionname %>
   </div>
 
   <div class="actions">
